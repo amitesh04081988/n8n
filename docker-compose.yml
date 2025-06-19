@@ -11,7 +11,7 @@ services:
       - N8N_BASIC_AUTH_USER=${N8N_BASIC_AUTH_USER}
       - N8N_BASIC_AUTH_PASSWORD=${N8N_BASIC_AUTH_PASSWORD}
       - NODE_ENV=production
-      - WEBHOOK_URL=https://your-domain.com
+      - WEBHOOK_URL=https://b779-2401-4900-1c44-f6-c1af-faf6-9c57-3c9d.ngrok-free.app
       - GENERIC_TIMEZONE=${GENERIC_TIMEZONE}
       - N8N_USER_FOLDER=/home/node/.n8n
     volumes:
